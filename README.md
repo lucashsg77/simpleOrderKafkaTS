@@ -14,12 +14,10 @@ This project provides a Kafka-based order processing system. It simulates creati
 1. **Clone the Repository**
 
 2. **Start Kafka and Zookeeper Services**
-
-Using Docker Compose:
-
-docker-compose up -d
-
-This will start Zookeeper and Kafka services, with a Kafka topic named "order-topic".
+- Using Docker Compose, this will start Zookeeper and Kafka services, with a Kafka topic named "order-topic".:
+```bash
+  docker-compose up -d
+```
 
 3. **Install Dependencies**
 
